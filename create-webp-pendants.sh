@@ -4,7 +4,6 @@
 ##
 ## description: run through a directory and
 ##              create webp-pendant-files for each jpg/png-file
-##              and check their http-status-code
 ##
 ## requirements: cwebp-library. see build-cwebp.sh
 ##
