@@ -10,6 +10,8 @@
 ## author:       jonas@sfxonline.de
 ## =======================================================================
 
+command -v convert >/dev/null 2>&1 || { echo >&2 "convert not available, please install first."; exit 1; }
+
 path="$HOME/Pictures/uhu"
 
 max_width=1920

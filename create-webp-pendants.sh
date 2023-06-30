@@ -10,6 +10,8 @@
 ## author:       jonas@sfxonline.de
 ## =======================================================================
 
+command -v cwebp >/dev/null 2>&1 || { echo >&2 "cwebp not available, please install first."; exit 1; }
+
 path="$HOME/Pictures/uhu"
 
 for D in `find "$path" -type d`; do
