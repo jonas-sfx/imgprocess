@@ -1,13 +1,13 @@
 #!/bin/bash
 
-## filename     create-webp-pendants.sh
+## filename      create-webp-pendants.sh
 ##
-## description: run through a directory and
-##              create webp-pendant-files for each jpg/png-file
+## description:  run through a directory and
+##               create webp-pendant-files for each jpg/png-file
 ##
 ## requirements: cwebp-library. see build-cwebp.sh
 ##
-## author:      jonas@sfxonline.de
+## author:       jonas@sfxonline.de
 ## =======================================================================
 
 path="$HOME/Pictures/uhu"
